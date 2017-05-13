@@ -24,7 +24,7 @@ module.exports = function() {
 		if (!file.data.draft
 		    && file.data.time
 		    && isNumber(file.data.time.epoch)
-		    && isString(file.data.time)) {
+		    && isString(file.data.time.utcoffset)) {
 			this.push(file);
 		}
 
