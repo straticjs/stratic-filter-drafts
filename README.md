@@ -30,7 +30,7 @@ var straticFilterDrafts = require('stratic-filter-drafts');
 var straticDateInPath = require('stratic-date-in-path');
 
 gulp.task('posts', function() {
-	return gulp.src(*.md')
+	return gulp.src('*.md')
 	           .pipe(frontMatter())
 	           .pipe(straticFilterDrafts());
 });
@@ -49,7 +49,7 @@ var pug = require('gulp-pug');
 var straticDateInPath = require('stratic-date-in-path');
 
 gulp.task('posts', function() {
-	return gulp.src(*.md')
+	return gulp.src('*.md')
 	           .pipe(frontMatter())
 	           .pipe(straticFilterDrafts())
 	           .pipe(remark().use(remarkHtml))
