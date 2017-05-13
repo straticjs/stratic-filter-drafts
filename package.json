@@ -1,0 +1,28 @@
+{
+  "name": "stratic-filter-drafts",
+  "version": "1.0.0",
+  "description": "Filter out Stratic posts that are drafts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/straticjs/stratic-filter-drafts.git"
+  },
+  "keywords": [
+    "stratic",
+    "gulpplugin"
+  ],
+  "author": "Alex Jordan <alex@strugee.net>",
+  "license": "LGPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/straticjs/stratic-filter-drafts/issues"
+  },
+  "homepage": "https://github.com/straticjs/stratic-filter-drafts#readme",
+  "dependencies": {
+    "lodash.isnumber": "^3.0.3",
+    "lodash.isstring": "^4.0.1",
+    "through2": "^2.0.3"
+  }
+}
