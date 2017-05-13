@@ -1,5 +1,7 @@
 # `stratic-filter-drafts`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/straticjs/stratic-filter-drafts.svg)](https://greenkeeper.io/)
+
 [Gulp][1] plugin to filter out [Stratic][2] posts that are drafts
 
 ## Installation
