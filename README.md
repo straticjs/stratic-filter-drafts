@@ -25,13 +25,13 @@ Minimal example:
 
 ```js
 var gulp = require('gulp');
-var frontmatter = require('gulp-grey-matter');
+var frontMatter = require('gulp-grey-matter');
 var straticFilterDrafts = require('stratic-filter-drafts');
 var straticDateInPath = require('stratic-date-in-path');
 
 gulp.task('posts', function() {
 	return gulp.src(*.md')
-	           .pipe(frontmatter())
+	           .pipe(frontMatter())
 	           .pipe(straticFilterDrafts());
 });
 ```
@@ -42,7 +42,7 @@ Full example:
 var gulp = require('gulp');
 var remark = require('gulp-remark');
 var remarkHtml = require('remark-html');
-var frontmatter = require('gulp-grey-matter');
+var frontMatter = require('gulp-grey-matter');
 var straticFilterDrafts = require('stratic-filter-drafts');
 var addsrc = require('gulp-add-src');
 var pug = require('gulp-pug');
@@ -50,7 +50,7 @@ var straticDateInPath = require('stratic-date-in-path');
 
 gulp.task('posts', function() {
 	return gulp.src(*.md')
-	           .pipe(frontmatter())
+	           .pipe(frontMatter())
 	           .pipe(straticFilterDrafts())
 	           .pipe(remark().use(remarkHtml))
 	           .pipe(straticDateInPath())
