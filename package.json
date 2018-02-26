@@ -1,6 +1,6 @@
 {
   "name": "stratic-filter-drafts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Filter out Stratic posts that are drafts",
   "main": "index.js",
   "scripts": {
