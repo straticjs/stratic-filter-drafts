@@ -12,7 +12,7 @@ Put this somewhere in a Gulp pipeline of Vinyl file objects to filter out posts 
 
 Files are considered drafts if they meet any of these conditions:
 
-1. `file.data.drafts` exists and is truthy
+1. `file.data.draft` exists and is truthy
 2. `file.data.time` doesn't exist
 3. `file.data.time.epoch` doesn't exist or isn't a number
 4. `file.dta.time.utcoffset` doesn't exist or isn't a string
